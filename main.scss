@@ -1,0 +1,797 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700;800&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+ -webkit-text-size-adjust: 100%;
+ -ms-text-size-adjust: 100%;
+}
+
+$main-color: #d9633f;
+$had-color: #c48931;
+$dark-color: #674432;
+$main-color: #d9633f;
+$had-font:'Space Grotesk', sans-serif;
+$cont-font:'Poppins', sans-serif;
+
+
+// *******          ********
+//         nav start
+// *******          ********
+nav{
+    background-color: transparent;
+    width: 100%;
+    height: 107px;
+    top: 0px;
+    position: absolute;
+    transition: width .10s ease;
+    
+}
+nav.sticky{
+    position: fixed;
+    z-index: 1 !important;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    
+   
+}
+nav.sticky ul li a{
+    color: #674432;
+    
+    &:hover{
+        color: #674432;
+     
+    }
+}
+nav.sticky button{
+    color: #674432;
+    border-color: #674432;
+
+    &:hover{
+        background-color: #674432;
+        color: white;
+        border-color: #674432;
+    }
+}
+.logo-perant img{
+    width: 128%;
+    transform: translateY(-220px);
+    
+   
+   
+}
+
+.logo-perant{
+    position: relative; 
+    
+}
+.logo{
+    position: absolute;
+    top: 0px;
+    left:0px;
+} 
+.logo img{
+    width: 85%;
+    height: 95px;
+    transform: translate(60px, 7px);
+
+} 
+
+
+
+
+// *******          ********
+//         nav end
+// *******          ********
+
+// *******          ********
+//    benar section start
+// *******          ********
+.benar{
+    background-image: url('file:///C:/Users/KING%20MASTER%20COMPUTER/Desktop/city%20vet/images/bener.webp');
+    width: 100%;
+    height: 95vh;
+    background-size: cover;
+
+    
+}
+
+.list-li{
+    list-style: none;
+    padding: 0px 12px;
+  }
+  a.list-link{
+   text-decoration: none;
+   font-family: $had-font;
+   font-weight: 600;
+   color: white;
+   font-size: 17px;
+   position: relative;
+
+   &:hover{
+    color: white;
+  }
+  }
+.Appointment{
+    padding-top: 35px;
+  }
+.Appointment button{
+    padding: 11px 18px;
+    text-decoration: none;
+    font-family: $had-font;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: transparent;
+    border-radius: 21px;
+    border: 2px solid white;
+    color: white;
+    transition: 0.3s ease;
+
+&:hover{
+    background-color: #ffffff;
+    color: hsl(0, 0%, 0%);
+}
+}
+.benar-content {
+    padding-top: 210px;
+    padding-left: 50px;
+}
+.benar-content h1{
+    font-family: $had-font;
+    font-size: 55px;
+    font-weight: 900;
+    color: #ffffff;
+    text-transform: uppercase;
+
+}
+.benar-content p{
+    font-size: 32px;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 40px;
+    
+}
+.bott{
+ padding-top: 30px;
+}
+.bott a{
+ background-color: #c55f3bfc;
+ font-family: $had-font;
+ font-weight: 600;
+ font-size: 16px;
+ padding: 17px 30px;
+ border-radius: 30px;
+ text-decoration: none;
+ transition: 0.3s;
+ color: #ffffff;
+
+ &:hover{
+    background-color: #4d3c33;
+    color: #ffffff;
+ }
+}
+.bott button{
+    background-color: transparent;
+    font-family: $had-font;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: 2px solid white;
+    text-decoration: none;
+    transition: 0.3s;
+    color: #ffffff;
+    margin-left: 20px;
+   
+    &:hover{
+       background-color: #ffffff;
+       color: #000000;
+    }
+   }
+
+
+  
+  
+
+// *******          ********
+//     benar section end
+// *******          ********
+// EMERGENCY CARE (24/7 WORKING) start
+.Emergency{
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background-color: #674432;
+    position: relative;
+}
+.care-child-1{
+    position: absolute;
+    top: -100px;
+    left: 0px;
+}
+.care-child-1 img{
+  width: 100px;
+}
+.care-child-2{
+    position: absolute;
+    bottom: 0px;
+    right: 80px;
+}
+.care-child-2 img{
+  width: 180px;
+}
+.care-pet img{
+ width: 85px;
+}
+.care-pet h1{
+    font-family: $had-font;
+    font-weight: 700;
+    font-size: 35px;
+    color: #f3aa30;
+    padding-top: 30px;
+    padding-left: 15px;
+   }
+
+   .care-pet p{
+    font-family: $had-font;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-left: 15px;
+   }
+
+   
+   .care-pet-butt a.cell-1{
+        background-color: #c45e3b;
+        font-family: $had-font;
+        font-weight: 600;
+        font-size: 16px;
+        padding: 15px 30px;
+        border-radius: 25px;
+        text-decoration: none;
+        transition: 0.3s;
+        color: #ffffff;
+        margin-left: 20px;
+       
+        &:hover{
+           background-color: #8f4228;
+           color: #ffffff;
+        }
+   }
+   .care-pet-butt a.cell-2{
+    background-color: #c08827;
+    font-family: $had-font;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 15px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+    color: #ffffff;
+    margin-left: 20px;
+   
+    &:hover{
+       background-color: #855d18;
+       color: #ffffff;
+    }
+}
+.care-pet-butt a.cell-3{
+    background-color: #c45e3b;
+    font-family: $had-font;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 15px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+    color: #ffffff;
+    margin-left: 20px;
+   
+    &:hover{
+       background-color: #8f4228;
+       color: #ffffff;
+    }
+}
+
+// EMERGENCY CARE (24/7 WORKING) end
+
+// ABOUT US start
+.about{
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+.about-cont h1{
+    font-family: $had-font;
+    font-weight: 700;
+    font-size: 40px;
+    color: #f3aa30;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+.about-cont p{
+    font-family: $had-font;
+    font-weight: 500;
+    font-size: 20px;
+    color: #0c0c0ca8;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.about-cont-butt a{
+    background-color: #c45e3b;
+    font-family: $had-font;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 16px 40px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+    color: #ffffff;
+    margin-left: 20px;
+   
+    &:hover{
+       background-color: #8f4228;
+       color: #ffffff;
+    }
+}
+
+.about-doc{
+    position: relative;
+}
+.about-doc-child{
+    position: absolute;
+    top: -70px;
+    left: -100px;
+}
+.about-doc-child-2{
+    position: absolute;
+    top: 15px;
+    right: -128px;
+}
+.about-doc-child-2 img{
+    width: 185px !important;
+}
+.about-doc-child-3{
+    position: absolute;
+    bottom: 0px;
+    right: -128px;
+}
+.about-doc-child-3 img{
+    width: 150px !important;
+}
+
+.about-doc img{
+    width: 100%;
+}
+// ABOUT US end
+
+// OUR SERVICES start
+.services{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: $main-color;
+    position: relative;
+}
+.serv-child-1{
+    position: absolute;
+    top: -40px;
+    left: 200px;
+}
+.serv-child-2{
+    position: absolute;
+    top: 0px;
+    right: 100px;
+}
+.serv-child-3{
+    position: absolute;
+    bottom: -100px;
+    left: 0px;
+}
+.serv-child-3 img{
+    width: 300px;
+}
+
+.serv-child-4{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.serv-child-5{
+    position: absolute;
+    bottom: 100px;
+    right: 0px;
+}
+.serv-child-5 img{
+    width: 150px;
+}
+.serv-child-6{
+    position: absolute;
+    bottom: 550px;
+    right: 450px;
+}
+.serv-child-7{
+    position: absolute;
+    top: 150px;
+    left: 400px;
+}
+.serv-child-7 img{
+    width: 50px;
+}
+.our h1{
+    font-family: $had-font;
+    font-weight: 700;
+    font-size: 45px;
+    color: #ffffff;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+.our a{
+    background-color: #ffffff;
+    font-family: $had-font;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 12px 47px;
+    border-radius: 25px;
+    text-decoration: none;
+    border: 2px solid white;
+    transition: 0.3s;
+    color: #000000;
+    margin-left: 20px;
+   
+    &:hover{
+       background-color: transparent;
+       color: #ffffff;
+    }
+}
+.serv-card-fig{
+    // background-image: url('file:///C:/Users/KING%20MASTER%20COMPUTER/Desktop/city%20vet/images/download.svg');
+    overflow: hidden;
+    background-size: cover;
+    width: 88%;
+    height: 313px;
+    position: relative;
+    aspect-ratio: 1 / 1;
+    -webkit-mask-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMjAiIGhlaWdodD0iMjIwIiB2aWV3Qm94PSIwIDAgMjIwIDIyMCI+CiAgPHBhdGggaWQ9IlBhdGhfNDc4MzIiIGRhdGEtbmFtZT0iUGF0aCA0NzgzMiIgZD0iTTE4MC40NjgsMTAuMzUzYzM0Ljg3MiwyMy4zOCw1NS42NjYsMTQ5LjM0NCwyMy42OSwxODMuMS0yNi40OCwyNy45NTEtMTQ4LjY0NywzNS41MDktMTc3LjYsMTQuNTkzUy04LjgsOTguNTU1LDEyLjkxMiw1NC45YzIyLjcxMS00NS42NjcsMTI5LjQtNzAuMTI3LDE2Ny41NTYtNDQuNTQ2IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDApIi8+Cjwvc3ZnPgo=);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+
+}
+.serv-card-fig img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    object-fit: cover;
+    mix-blend-mode: screen;
+}
+.serv-card h3{
+    font-family: $had-font;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+}
+.serv-card p{
+    font-family: $had-font;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+.serv-card a{
+    text-decoration: none;
+    font-family: $had-font;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    transition: 0.3s ease;
+
+
+    &:hover{
+        color: white;
+    }
+    &.fa-solid{
+        transition: 0,3s ease;
+    } 
+    &:hover i{
+        padding-left: 10px;
+        color: white;
+    }
+}
+// OUR SERVICES end
+// WHY YOU SHOULD CHOOSE US start 
+.should{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.why-cont h1{
+    font-family: $had-font;
+    font-weight: 700;
+    font-size: 50px;
+    color: rgb(196 137 49);
+    padding-top: 30px;
+    padding-left: 15px;
+}
+.why-cont p{
+    font-family: $had-font;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+.choose-card{
+    width: 100%;
+    height: 338px;
+    background-size: cover;
+    position: relative;
+}
+.choose-card-child{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.choose-card-child h4{
+    padding-top: 10px;
+    font-family: $had-font;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+}
+.choose-card-child p{
+    font-family: $had-font;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+.choose-card-child a{
+    text-decoration: none;
+    font-family: $had-font;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    transition: 0.3s ease;
+
+
+    &:hover{
+        color: white;
+    }
+    &.fa-solid{
+        transition: 0,3s ease;
+    } 
+    &:hover i{
+        padding-left: 10px;
+        color: white;
+    }
+}
+
+// WHY YOU SHOULD CHOOSE US end
+// TESTIMONIALS start
+.testrimonials{
+    background-color: #fff4e0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.test-card{
+    background-color: rgb(255 211 145);
+    padding: 40px;
+    height: 340px;
+    border-radius: 30px;
+    
+}
+.test-card p{
+    font-family: $had-font;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    
+}
+.test-card span{
+    font-family: $had-font;
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+.test-cont h1{
+    font-family: $had-font;
+    font-weight: 700;
+    font-size: 50px;
+    color: rgb(196 137 49);
+    padding-top: 30px;
+    padding-left: 15px;
+}
+// TESTIMONIALS end
+// BOOK AN APPOINTMENT start
+.book-an{
+    background-image: url('file:///C:/Users/KING%20MASTER%20COMPUTER/Downloads/bg_book_appointment.webp');
+    width: 100%;
+    height: 500px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-size: cover;
+}
+.appointment{
+
+}
+.appointment h1{
+    padding-top: 10px;
+    font-family: $had-font;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+
+   
+   
+   .form{
+     width: 100%;
+     height: 60px;
+     outline: none;
+     padding-left: 20px ;
+     border-radius: 30px;
+     border: 1px solid #ffffff;
+     background-color: transparent;
+     font-size: 18px;
+     font-weight: 500;
+   }
+   .form::placeholder{
+       color: #ffffff;
+       font-size: 18px;
+       font-family: $had-font;
+       font-weight: 500;
+     }
+     .opoint-butt a{
+        background-color: #d2933b;
+        font-family: $had-font;
+        font-weight: 600;
+        font-size: 18px;
+        padding: 12px 47px;
+        border-radius: 25px;
+        text-decoration: none;
+        border: 2px solid #d2933b;
+        transition: 0.3s;
+        color: white;
+        margin-left: 0px;
+       
+        &:hover{
+           background-color: transparent;
+           color: #ffffff;
+           border: 2px solid white;
+        }
+    }
+    .opoint-img{
+        padding-left: 100px;
+       
+    }
+
+    .opoint-img img{
+        width: 100%;
+        height: auto;
+    }
+// BOOK AN APPOINTMENT end
+// SUBSCRIBE TO OUR NEWSLETTER
+.subscribe{
+    background-color: #d9633f;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.news-cont h1{
+    padding-top: 10px;
+    font-family: $had-font;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+.news-cont-in{
+    border: 1px solid white;
+    border-radius: 30px;
+}
+.news-cont-in input{
+    width: 100%;
+    height: 60px;
+    outline: none;
+    padding-left: 20px ;
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .news-cont-in input::placeholder{
+      color: #ffffff;
+      font-size: 18px;
+      font-family: $had-font;
+      font-weight: 500;
+    }
+    .news-cont-in a{
+            background-color: #d2933b;
+            font-family: $had-font;
+            font-weight: 600;
+            font-size: 18px;
+            padding: 12px 47px;
+            border-radius: 25px;
+            text-decoration: none;
+            border: 1px solid #d2933b;
+            transition: 0.3s;
+            color: white;
+            margin-left: 0px;
+           
+            &:hover{
+               background-color: transparent;
+               color: #ffffff;
+               border: 1px solid white;
+            }
+        }
+// SUBSCRIBE TO OUR NEWSLETTER
+
+// footer start
+footer{
+    background-color: $dark-color;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.fot-child{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.fot-child img{
+    width: 115px;
+}
+
+.fot-logo img{
+    width: 100%;
+}
+.insta i{
+    font-size: 25px;
+    color: $had-color;
+    padding-left: 20px;
+
+  }
+  .footer-links-prnt h1{
+   font-family: $had-font;
+   font-weight: 500;
+   font-size: 25px;
+   color: white;
+  }
+  .fot-ul{
+    padding-top: 10px;
+    padding: 0px;
+    
+  }
+  .fot-ul li{
+    list-style: none;
+    color: $had-color;
+    padding-right: 5px;
+  }
+  .fot-ul li a{
+   text-decoration: none;
+   font-family: var(--sub-hadings-font);
+   font-weight: 400;
+   font-size: 16px;
+   color: white;
+   transition: 0.3s ease;
+   line-height: 35px;
+  
+  &:hover{
+   color: $had-color;
+   padding-left: 10px;
+  
+  }
+
+}
+.copy-right{
+    text-align: center;
+    padding-top: 20px;
+}
+.copy-right p{
+    font-family: $had-font;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+}
+  
+// footer end
